@@ -78,7 +78,7 @@ def add_conjugation(verb, tense=None, person='other'):
     conj = conjugation[tense][person]
     if tense == 0:
         _, ending = SylComponents().get_parts(syls[-1])
-        if not ending.strip('ིེོུྱྲྭའ'):
+        if not ending.strip('ིེོུྱྲྭའངལ'):
             conj = 'བ' + conj[1:]
     verb = '་'.join(syls + [conj]) + '་'
 
