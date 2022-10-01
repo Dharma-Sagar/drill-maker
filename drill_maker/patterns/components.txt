@@ -1,0 +1,50 @@
+TOP1 -> NOUNS | PRONOUNS | ADJECTIVES | ARTICLES_PRONOUNS | QUESTION_WORDS | ADV_MANNER | ADV_TIME | ADV_LOCATIONS # anything
+TOP2 -> QUESTION_WORDS | PRONOUNS | BEINGS # someone + question words
+TOP3 -> PLACES # place to stay
+
+OBJ1 -> NOUNS | PRONOUNS | ADJECTIVES | ARTICLES_PRONOUNS | QUESTION_WORDS | ADV_TIME | ADV_LOCATIONS # anything (ཡིན་)
+OBJ2 -> BODY_PARTS
+OBJ3 -> NOUNS | QUESTION_WORDS | BEINGS # something or someone (ཡོད་)
+OBJ4 -> ADJ_ASPECT | QUESTION_WORDS | ADJ_SHAPES | ADJ_COLORS | NOUNS | ADJ_SENSATIONS | PRONOUNS # something
+OBJ5 -> KNOWLEDGE # qualities or knowledge etc.
+OBJ6 -> KNOWLEDGE # advice, teachings, dharma etc.
+OBJ7 -> DRINKS # liquids
+# OBJ8 ->  # letters, parcels, things to send
+OBJ9 -> TO_WRITE # words, letters, messages
+OBJ10 -> FOODS # foods
+OBJ11 -> DRINKS # drinks
+
+LOC1 -> NOUNS '-ལ་' | QUESTION_WORDS '-ལ་' | PRONOUNS '-ལ་' | BEINGS '-ལ་' | ARTICLES_PRONOUNS '-ལ་' # someone + question words
+LOC2 -> QUESTION_WORDS '-ལ་' | PRONOUNS '-ལ་' | BEINGS '-ལ་' | ARTICLES_PRONOUNS '-ལ་' # someone + question words
+LOC3 -> TO_HEAR '-ལ་' # LOC2 or something to be heard (sound, music, ...)
+LOC4 -> NOUNS '-ལ་' | QUESTION_WORDS '-ལ་' | PRONOUNS '-ལ་' | ARTICLES_PRONOUNS '-ལ་' # LOC1 or something to look at
+LOC5 -> PLACES '-ལ་' | TO_STAY '-ལ་' # place to stay
+LOC6 -> ARTICLES_PRONOUNS '-ལ་' # དེ་ཚོ་etc. and ག་པར་
+LOC7 -> PLACES '-ལ་' | TO_STAY '-ལ་' # LOC5 + places to go
+
+ORG1 -> ARTICLES_PRONOUNS '-ནས་' | PLACES '-ནས་' # places
+
+AGN1 -> QUESTION_WORDS '-གིས་' | PRONOUNS '-གིས་' | BEINGS '-གིས་' | ARTICLES_PRONOUNS '-གིས་' # someone
+AGN2 -> QUESTION_WORDS '-གིས་' | PRONOUNS '-གིས་' | BEINGS '-གིས་' | ARTICLES_PRONOUNS '-གིས་' # AGN1 + knives and things that cut
+
+PLACES » མིང་ཚིག/སེམས་མེད།/རྡུལ་གྲུབ།/ས་ཆ།/
+TO_STAY » མིང་ཚིག/སེམས་མེད།/རྡུལ་གྲུབ།/ཅ་དངོས།/སྡོད་ས།/
+NOUNS » མིང་ཚིག/
+PRONOUNS » ཚབ་ཚིག/
+ADJECTIVES » རྒྱན་ཚིག/
+ADJ_ASPECT » རྒྱན་ཚིག/རྣམ་པ།/
+ADJ_COLORS » རྒྱན་ཚིག/ཚོན་མདོག/
+ADJ_SHAPES » རྒྱན་ཚིག/དབྱིབས།/
+ADJ_SENSATIONS » རྒྱན་ཚིག/ཚོར་སྣང་།/
+ARTICLES_PRONOUNS » ཁྱད་ཚིག/མིང་ཚབ།/
+QUESTION_WORDS » དྲི་ཚིག/མིང་ཚབ།/
+ADV_MANNER » བསྣན་ཚིག/རྣམ་པ།/
+ADV_TIME » བསྣན་ཚིག/དུས་ཚོད།/
+ADV_LOCATIONS » བསྣན་ཚིག/ས་ཕྱོགས།/
+BEINGS » མིང་ཚིག/སེམས་འབྲེལ།/སེམས་ཅན།/
+BODY_PARTS » མིང་ཚིག/སེམས་མེད།/རྡུལ་གྲུབ།/ཅ་དངོས།/གཟུགས་པོའི་ཆ་ཤས།/
+KNOWLEDGE » མིང་ཚིག/སེམས་མེད།/རྡུལ་མེད།/ཤེས་ཡོན།/ མིང་ཚིག/སེམས་མེད།/རྡུལ་མེད།/སྐད་རིགས།
+DRINKS » མིང་ཚིག/སེམས་མེད།/རྡུལ་གྲུབ།/ཅ་དངོས།/བཏུང་བ།/
+TO_WRITE » མིང་ཚིག/སེམས་མེད།/རྡུལ་མེད།/ཤེས་ཡོན།/
+FOODS » མིང་ཚིག/སེམས་མེད།/རྡུལ་གྲུབ།/ཅ་དངོས།/ཟ་མ།
+TO_HEAR » མིང་ཚིག/སེམས་མེད།/རྡུལ་མེད།/སྐད་རིགས།/

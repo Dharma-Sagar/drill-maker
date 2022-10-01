@@ -1,0 +1,1 @@
+# use NLTK to generate all the possible combinations of a given CFG and check if all the productions are correct.

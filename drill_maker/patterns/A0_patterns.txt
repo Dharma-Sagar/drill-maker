@@ -1,0 +1,55 @@
+S -> TOP1 OBJ1 ཡིན་/
+S -> TOP1 ORG1 ཡིན་/
+S -> TOP1 OBJ1 རེད་/
+S -> TOP1 OBJ1 མ་རེད་/
+S -> TOP2 OBJ2 ན་/
+S -> TOP2 ན་/
+S -> TOP2 ORG1 ཡོང་/
+S -> LOC1 OBJ3 ཡོད་/
+S -> LOC1 OBJ3 ཡོད་རེད་/
+S -> LOC1 OBJ3 ཡོད་མ་རེད་/
+S -> LOC1 OBJ3 འདུག་/
+S -> LOC1 OBJ3 མི་འདུག་/
+S -> AGN1 LOC2 OBJ1 ལབ་/
+S -> AGN1 LOC2 OBJ1 བཤད་/
+S -> AGN1 LOC2 སྐད་ཆ་ བཤད་/
+S -> AGN1 LOC2 S འདྲི་/
+S -> AGN1 LOC2 OBJ3 སྤྲད་/
+S -> AGN1 LOC2 ལན་ རྒྱབ་/
+S -> AGN1 LOC2 ལན་ འདེབས་/
+S -> AGN1 LOC2 OBJ4 ཚོང་/
+S -> AGN1 LOC2 OBJ5 སློབ་/
+S -> AGN1 LOC2 OBJ6 གསུང་/
+S -> AGN1 LOC2 རོགས་པ་ བྱེད་/
+S -> TOP2 LOC3 ཉན་/
+S -> TOP2 LOC4 ལྟ་/
+S -> TOP2 LOC1 རྒྱབ་/
+S -> TOP2 LOC5 བསྡད་/
+S -> TOP3 LOC6 བསྡད་/
+S -> TOP2 LOC7 འགྲོ་/
+S -> AGN1 OBJ3 མཐོང་/
+S -> AGN1 OBJ4 ཧ་གོ་/
+S -> AGN1 OBJ7 སྐོལ་/
+# S -> AGN1 OBJ8 བཏང་/
+S -> AGN2 OBJ2 གཅོད་/
+S -> TOP2 OBJ4 གོ་/
+S -> TOP2 OBJ3 འཚོལ་/
+S -> TOP2 OBJ9 འབྲི་/
+S -> TOP2 OBJ9 ཀློག་/
+S -> TOP2 OBJ5 སྦྱོང་/
+S -> TOP2 OBJ4 བཟོ་/
+S -> TOP2 OBJ4 གཙང་མ་བཟོ་/
+S -> TOP2 གཅིག་ བྱེད་/
+S -> TOP2 སློབ་སྦྱོང་ བྱེད་/
+S -> TOP2 ལས་ཀ་ བྱེད་/
+S -> TOP2 OBJ4 ཉོ་/
+S -> TOP2 སྐོར་ར་ རྒྱབ་/
+S -> TOP2 གླིང་ཀ་ བཏང་/
+S -> TOP2 ལྟས་མོ་ ལྟ་/
+S -> TOP2 OBJ10 ཟ་/
+S -> TOP2 ཁ་ལག་ ཟ་/
+S -> TOP2 ཟ་/
+S -> TOP2 OBJ11 འཐུང་/
+S -> TOP2 བྱེད་/
+S -> OBJ1 འགྲིག་/
+S -> OBJ1 རྫོགས་/
